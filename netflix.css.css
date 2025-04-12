@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.over-all-container {
+    background-image: radial-gradient(#f2d2f2, #2e2c2e);
+    height: 100%;
+    margin-top: 0px;
+}
+
+.Netflix-logo {
+    padding-top: 8px;
+    padding-left: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-in-button {
+    color: #0F070D;
+    background-color: #ffffff;
+    padding: 3px;
+    border-radius: 10px;
+    border-width: 1px;
+    font-size: 16px;
+    height: 40px;
+    font-family: "Arial";
+}
+
+.language-button {
+    font-family: "Arial";
+    background-color: transparent;
+    padding: 0px;
+    border-color: #ffffff;
+    border-radius: 15px;
+    border-width: 3px;
+    font-size: 20px;
+    height: 40px;
+    margin-right: 2px;
+}
+
+.option-design {
+    color: #ffffff;
+}
+
+.new-img-size {
+    background-image: url("https://dkr0pu7ej5xex.cloudfront.net/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg");
+    height: 40rem;
+    width: 90%;
+    background-size: max(1440px, 100vw);
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+
+}
+
+.boxe {
+    height: 40rem;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.8;
+    background-color: #000;
+}
+
+.opening-heading {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.opening-para {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.movie-scroll-icon {
+    display: inline-block;
+    z-index: -1;
+    text-align: center;
+
+
+    animation: movie-image 400s linear infinite;
+}
+
+.image-height {
+    height: 70vh;
+}
+
+.my-image {
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    width: 85%;
+}
+
+@keyframes movie-image {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-25);
+    }
+
+    50% {
+        transform: translateX(-50);
+    }
+
+    75% {
+        transform: translateX(-75);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.trending-now {
+    color: #ffffff;
+    font-size: 27px;
+    padding: 5px;
+    margin-left: 10px;
+    font-family: "Arial";
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.scroll-trends {
+    overflow-x: scroll;
+}
+
+.all-scroller-image {
+    height: 20rem;
+    border-radius: 15px;
+    margin-left: 18px;
+    padding-bottom: 5px;
+}
+
+.more-reason {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 200;
+    font-family: "Tahoma";
+    padding-bottom: 7px;
+}
+
+.more-reason-para {
+    color: #F6EDED;
+    font-size: 17px;
+}
+
+.reason-card {
+    background-color: #413C3C;
+    border-radius: 13px;
+}
+
+.button-modol {
+    background-color: #413C3C;
+    border-radius: 6px;
+    color: #ffffff;
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.font-all-button {
+    font-family: "Tahoma";
+}
+
+.regi-mail {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Arial";
+    padding: 3px;
+    margin: 3px;
+    margin-top: 4px;
+}
+
+.mail-other {
+    background-color: #413C3C;
+    border-radius: 6px;
+    color: #ffffff;
+    border-color: #ffffff;
+    margin-left: 9px;
+}
+
+.last-page-help {
+    font-size: 15px;
+    color: #ffffff;
+    font-family: "Arial";
+
+}
+
+.decor {
+    text-decoration: underline;
+
+
+}
+
+.modal-box-images {
+    height: 20rem;
+    background-size: cover;
+
+    width: 100%;
+
+}
+
+.modal-para-1 {
+    color: black;
+    font-size: 10px;
+
+}
